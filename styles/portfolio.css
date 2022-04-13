@@ -1,4 +1,50 @@
+:root {
+  --primary-background-colour: #d7ceca;
+  --secondary-background-colour: #763240;
+  --button-colour: #565656;
+  --primary-text-colour: #565656;
+  --heading-font-family: "Livvic", sans-serif;
+  --text-font-family: "Open Sans", sans-serif;
+}
+
 h1 {
-  color: red;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  font-size: 96px;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  color: var(--primary-text-colour);
+  font-size: 56px;
+  font-weight: 400;
+}
+.nav-bar {
+  background-color: var(--secondary-background-colour);
+  padding: 2px;
+  color: white;
+}
+
+.nav-bar-text {
+  margin: 20px 60px;
+  font-size: 30px;
+  font-family: var(--text-font-family);
+  font-weight: 400;
+}
+.hero {
+  text-align: center;
+  background-color: var(--primary-background-colour);
+  margin: 80px 60px;
+  padding: 120px;
+}
+
+.contact-button {
+  color: white;
+  background-color: var(--button-colour);
+  font-family: var(--text-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  border-radius: 30px;
+  margin-top: 90px;
+  padding: 23px 149px;
 }
