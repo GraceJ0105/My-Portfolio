@@ -48,3 +48,21 @@ h2 {
   margin-top: 90px;
   padding: 23px 149px;
 }
+
+.projects-div {
+  text-align: center;
+  background-color: var(--primary-background-colour);
+  margin: 80px 60px;
+  padding: 120px;
+}
+
+.project-button {
+  color: white;
+  background-color: var(--button-colour);
+  font-family: var(--text-font-family);
+  text-align: center;
+  border-radius: 30px;
+  padding: 23px 80px;
+  margin-top: 130px;
+  font-size: 20px;
+}
