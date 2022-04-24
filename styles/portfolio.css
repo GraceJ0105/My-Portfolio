@@ -19,6 +19,13 @@ h2 {
   font-size: 56px;
   font-weight: 400;
 }
+
+h3 {
+  font-family: var(--heading-font-family);
+  color: var(--primary-text-colour);
+  font-weight: 400;
+}
+
 .nav-bar {
   background-color: var(--secondary-background-colour);
   padding: 2px;
@@ -49,15 +56,25 @@ h2 {
   padding: 23px 149px;
 }
 
-.projects-div {
+.content-container {
   text-align: center;
   background-color: var(--primary-background-colour);
   margin: 80px 60px;
   padding: 120px;
 }
 
-.projects-div p {
+.content-container p {
   font-family: var(--text-font-family);
+}
+
+.content-container p a {
+  font-family: var(--text-font-family);
+  text-decoration: none;
+  color: var(--button-colour);
+}
+
+.content-container p a:hover {
+  text-decoration: underline;
 }
 
 .project-button {
