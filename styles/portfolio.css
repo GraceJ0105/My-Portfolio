@@ -28,15 +28,37 @@ h3 {
 
 .nav-bar {
   background-color: var(--secondary-background-colour);
-  padding: 2px;
+  padding: 10px;
   color: white;
 }
 
 .nav-bar-text {
-  margin: 20px 60px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: var(--text-font-family);
   font-weight: 400;
+  margin-right: 50px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  transition: all 100ms ease-in-out;
+  text-align: right;
+}
+
+.nav-bar a:hover,
+.nav-bar a.active {
+  color: var(--primary-background-colour);
+}
+
+.nav-bar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  display: inline;
+  list-style: none;
+  padding: 2px;
 }
 .hero {
   text-align: center;
@@ -124,8 +146,7 @@ h3 {
   }
 
   .nav-bar-text {
-    margin: 20px 60px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .hero {
     text-align: center;
@@ -140,7 +161,7 @@ h3 {
     font-size: 20px;
   }
 
-  .projects-div {
+  .content-container {
     text-align: center;
     margin: 50px 30px;
     padding: 10px;
@@ -151,7 +172,7 @@ h3 {
     margin-top: 5px;
     padding: 2px 30px;
     font-size: 20px;
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .about-hero {
